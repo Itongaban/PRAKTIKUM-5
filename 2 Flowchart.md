@@ -1,5 +1,5 @@
 
-flowchart TD
+flowchart 
     A([Mulai]) --> B[Input a dan b]
     B --> C[Hitung penjumlahan = a + b]
     C --> D[Hitung pengurangan = a - b]
