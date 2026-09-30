@@ -3,12 +3,10 @@
 ```mermaid
 flowchart TD
     A([Mulai]) --> B[Set PPN = 0.11]
-    B --> C[/Input namaBarang/]
-    C --> D[/Input hargaSatuan/]
-    D --> E[/Input jumlah/]
-    E --> F[Hitung subtotal = hargaSatuan × jumlah]
-    F --> G[Hitung pajak = subtotal × PPN]
-    G --> H[Hitung total = subtotal + pajak]
-    H --> I[/Tampilkan Barang, Subtotal, PPN, dan Total/]
-    I --> J([Selesai])
+    B --> C[/Input namaBarang, hargaSatuan, jumlah/]
+    C --> D[subtotal = hargaSatuan × jumlah]
+    D --> F[pajak = subtotal × PPN]
+    F --> G[ total = subtotal + pajak]
+    G --> H[/Tampilkan output Barang, Subtotal, PPN, dan Total/]
+    H --> I([Selesai])
 ```
