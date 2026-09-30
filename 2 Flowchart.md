@@ -1,6 +1,6 @@
 
 flowchart TD
-    A([Mulai]) --> B[/Input a dan b/]
+    A([Mulai]) --> B[Input a dan b]
     B --> C[Hitung penjumlahan = a + b]
     C --> D[Hitung pengurangan = a - b]
     D --> E[Hitung perkalian = a * b]
