@@ -1,4 +1,4 @@
-### Pseudocode
+
 BEGIN
 
     INPUT a
