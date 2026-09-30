@@ -3,7 +3,7 @@
 ```mermaid
 flowchart TD
          A([Mulai]) 
-    B --> C[/Input namaBarang,harga satuan,jumlah/]
+    [/Input namaBarang,harga satuan,jumlah/]
     E --> F[ subtotal = hargaSatuan × jumlah]
     F --> G[ pajak = subtotal × PPN]
     G --> H[ total = subtotal + pajak]
