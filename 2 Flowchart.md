@@ -1,6 +1,8 @@
+### Flowchart
 
-flowchart 
-    A([Mulai]) --> B[Input a dan b]
+```mermaid
+flowchart TD
+    A([Mulai]) --> B[/Input a dan b/]
     B --> C[Hitung penjumlahan = a + b]
     C --> D[Hitung pengurangan = a - b]
     D --> E[Hitung perkalian = a * b]
@@ -10,3 +12,4 @@ flowchart
     H --> I[/Tampilkan semua hasil/]
     I --> J([Selesai])
 ```
+
