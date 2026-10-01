@@ -1,12 +1,1 @@
-### Flowchart
-
-```mermaid
-flowchart TD
-    A([Mulai]) --> B[Set PPN = 0.11]
-    B --> C[/Input namaBarang, hargaSatuan, jumlah/]
-    C --> D[subtotal = hargaSatuan × jumlah]
-    D --> F[pajak = subtotal × PPN]
-    F --> G[ total = subtotal + pajak]
-    G --> H[/Tampilkan output Barang, Subtotal, PPN, dan Total/]
-    H --> I([Selesai])
-```
+<img width="158" height="714" alt="Diagram Tanpa Judul drawio" src="https://github.com/user-attachments/assets/1fe02edf-eb60-4a5b-a617-3458c66dc5fb" />
